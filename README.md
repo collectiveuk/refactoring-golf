@@ -4,17 +4,23 @@ Refactor the code to something nicer!
 
 There is no right answer, it's about getting to a cleaner solution.
 
-Taken from a [refactoring golf exercise](https://github.com/daviddenton/refactoring-golf) by Mr Dave. 
+Taken from a [refactoring golf exercise](https://github.com/daviddenton/refactoring-golf) by Mr Dave, however, please note the name is deceiving in our fork, this has nothing to do with golf.
 
 ## Typescript
 
-You should be good to execute `./run.sh` and be setup...
+You should be good to install node modules and then run tests:
 
-If not then it's a `nvm use` to use the right version of node followed by `npm install`
+```bash
+npm install
+npm test
+```
 
-### Run tests in watch mode
+or run the tests in watch mode:
 
 ```bash
 npm test -- --watch
 ```
 
+## If you don't have Node/NPM installed
+
+Please run `./install-nvm.sh` to install NVM and setup your device.
