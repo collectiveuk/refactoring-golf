@@ -5,7 +5,10 @@ export class TakeHomeCalculator {
     this.percent = percent;
   }
 
-  netAmount(first: Pair<number, string>, ...rest: Pair<number, string>[]): Pair<number, string> {
+  netAmount(
+    first: Pair<number, string>,
+    ...rest: Pair<number, string>[]
+  ): Pair<number, string> {
     let pairs: Pair<number, string>[] = Array.from(rest);
 
     let total: Pair<number, string> = first;
@@ -41,5 +44,4 @@ export class Pair<A, B> {
   }
 }
 
-export class Incalculable extends Error {
-}
+export class Incalculable extends Error {}

@@ -1,8 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "esModuleInterop": true,
     "module": "commonjs",
     "moduleResolution": "node",
@@ -13,7 +11,5 @@
     "noFallthroughCasesInSwitch": true,
     "strict": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
